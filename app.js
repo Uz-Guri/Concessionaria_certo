@@ -13,7 +13,6 @@ let pecas = [];
 let manutenções = [];
 let agendamentos = [];
 
-// Modelos (Sem persistência real)
 // Cliente
 app.post('/clientes', (req, res) => {
   const cliente = req.body;
